@@ -1,2 +1,28 @@
 # PTSrpi-Mini
 Pan / Tilt / Slider App for Raspberry Pi - 800 x 480 touchscreen.
+
+Designed for use with Isaac879's Pan Tilt Slider mount (https://www.youtube.com/c/isaac879)
+
+Built for use with:
+Raspberry Pi 4 (https://amzn.to/2Yy1b1B)
+800x480 touchscreen (https://amzn.to/3AuYOKn)
+
+Opional:
+PS4 Dualshock controller (https://amzn.to/3oKYCV7)
+XBOX 360 USB controller (https://amzn.to/3lzJIiB)
+
+Drag both files to the desktop for easy access.
+
+Connect your Raspberry Pi to your PTS mount via bluetooth.
+To get the MAC address of the bluetooth in your PTS mount, in terminal run:
+
+hcitool scan
+
+Replace the MAC address in the file "btcomm.sh", you may run the file from within the PTSrpi app.
+
+To make the file executable, in terminal, run the command:
+
+chmod +x PTSrpi.py
+
+When double clicking on PTSrpi.py, choose "Execute in Terminal" so you can connect to your PTS mount. "Connect" needs a running Terminal to work.
+Click "FS" to come out of FullScreen and monitor the terminal there.
