@@ -386,7 +386,7 @@ def setMoveSliderStop():
     axisZ = 0
 
 def btcomm(event):
-    p = os.popen('sh ./Desktop/btcomm.sh')
+    os.popen('sh ./btcomm.sh')
     
 def circle(canvas,x,y, r):
     id = canvas.create_oval(x-r,y-r,x+r,y+r, fill="red")
@@ -490,9 +490,9 @@ buttonReport = tk.Button(frame_3, bg=buttonColour, activebackground=buttonColour
 buttonReport.place(anchor='nw', height='28', width='80', x='640', y='34')
 buttonReport.bind('<Button-1>', sendReport)
 buttonClearText = tk.Button(frame_3, bg=buttonColour, activebackground=buttonColour, activeforeground="white", highlightbackground=borderColorOff, fg="white", text='Clear', font=helv18)
-buttonClearText.place(anchor='nw', height='28', width='80', x='540', y='34')
+buttonClearText.place(anchor='nw', height='28', width='80', x='550', y='34')
 buttonClearText.bind('<Button-1>', clearText)
-buttonBTcomm = tk.Button(frame_3, bg=buttonColour, activebackground=buttonColour, activeforeground="white", highlightbackground=borderColorOff, fg="white", text='Comm', font=helv18)
+buttonBTcomm = tk.Button(frame_3, bg=buttonColour, activebackground=buttonColour, activeforeground="white", highlightbackground=borderColorOff, fg="white", text='Connect', font=helv18)
 buttonBTcomm.place(anchor='nw', height='28', width='80', x='440', y='34')
 buttonBTcomm.bind('<Button-1>', btcomm)
 
