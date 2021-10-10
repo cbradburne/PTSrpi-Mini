@@ -11,6 +11,8 @@ Opional:<br>
 PS4 Dualshock controller (https://amzn.to/3oKYCV7)<br>
 XBOX 360 USB controller (https://amzn.to/3lzJIiB)
 
+YouTube tutorial: https://youtu.be/wbUkVF55yrs
+
 Drag both files to the desktop for easy access.
 
 Connect your Raspberry Pi to your PTS mount via bluetooth.<br>
