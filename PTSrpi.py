@@ -493,7 +493,7 @@ buttonClearText = tk.Button(frame_3, bg=buttonColour, activebackground=buttonCol
 buttonClearText.place(anchor='nw', height='28', width='80', x='550', y='34')
 buttonClearText.bind('<Button-1>', clearText)
 buttonBTcomm = tk.Button(frame_3, bg=buttonColour, activebackground=buttonColour, activeforeground="white", highlightbackground=borderColorOff, fg="white", text='Connect', font=helv18)
-buttonBTcomm.place(anchor='nw', height='28', width='80', x='440', y='34')
+buttonBTcomm.place(anchor='nw', height='28', width='100', x='440', y='34')
 buttonBTcomm.bind('<Button-1>', btcomm)
 
 buttonPage = tk.Button(frame_1, bg=buttonColour, activebackground=buttonColour, activeforeground="white", highlightbackground=borderColorOff, fg="white", text='', font=helv18, command=textEnd)
