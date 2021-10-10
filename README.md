@@ -1,5 +1,6 @@
 # PTSrpi-Mini
-Pan / Tilt / Slider App for Raspberry Pi - 800 x 480 touchscreen.
+Pan / Tilt / Slider App for Raspberry Pi - 800 x 480 touchscreen.<br>
+YouTube tutorial: https://youtu.be/wbUkVF55yrs
 
 Designed for use with Isaac879's Pan Tilt Slider mount (https://www.youtube.com/c/isaac879)
 
@@ -10,8 +11,6 @@ Raspberry Pi 4 (https://amzn.to/2Yy1b1B)<br>
 Opional:<br>
 PS4 Dualshock controller (https://amzn.to/3oKYCV7)<br>
 XBOX 360 USB controller (https://amzn.to/3lzJIiB)
-
-YouTube tutorial: https://youtu.be/wbUkVF55yrs
 
 Drag both files to the desktop for easy access.
 
