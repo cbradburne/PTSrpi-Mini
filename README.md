@@ -3,17 +3,17 @@ Pan / Tilt / Slider App for Raspberry Pi - 800 x 480 touchscreen.
 
 Designed for use with Isaac879's Pan Tilt Slider mount (https://www.youtube.com/c/isaac879)
 
-Built for use with:
-Raspberry Pi 4 (https://amzn.to/2Yy1b1B)
+Built for use with:<br>
+Raspberry Pi 4 (https://amzn.to/2Yy1b1B)<br>
 800x480 touchscreen (https://amzn.to/3AuYOKn)
 
-Opional:
-PS4 Dualshock controller (https://amzn.to/3oKYCV7)
+Opional:<br>
+PS4 Dualshock controller (https://amzn.to/3oKYCV7)<br>
 XBOX 360 USB controller (https://amzn.to/3lzJIiB)
 
 Drag both files to the desktop for easy access.
 
-Connect your Raspberry Pi to your PTS mount via bluetooth.
+Connect your Raspberry Pi to your PTS mount via bluetooth.<br>
 To get the MAC address of the bluetooth in your PTS mount, in terminal run:
 ```
 hcitool scan
